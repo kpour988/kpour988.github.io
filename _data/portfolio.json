@@ -1,0 +1,114 @@
+{
+"posters": [
+        {
+            "title": "Carl Stone",
+            "imgurl": "carlstone.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Dan Deacon",
+            "imgurl": "dandeacon.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Helado Negro",
+            "imgurl": "heladonegro.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Human Host",
+            "imgurl": "humanhost.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Midnight Hour",
+            "imgurl": "midnighthour.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Negativland",
+            "imgurl": "negativland.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "The Nels Cline Trio",
+            "imgurl": "nelsclinetrio.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Pearl & the Oysters",
+            "imgurl": "pearlandtheoysters.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Quintron",
+            "imgurl": "quintron.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Reels",
+            "imgurl": "reels.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Sun June",
+            "imgurl": "sunjune.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "Toned",
+            "imgurl": "toned.jpg",
+            "project": "flyer"
+        },
+        {
+            "title": "My New work",
+            "imgurl": "quintron.jpg",
+            "project": "flyer"
+        }
+],
+"uf": [
+        {
+            "title": "UFGraphicDesign",
+            "imgurl": "dan.jpg",
+            "project": "uf"
+        },
+        {
+            "title": "UFGraphicDesign",
+            "imgurl": "dan.jpg",
+            "project": "uf"
+        },
+        {
+            "title": "UFGraphicDesign",
+            "imgurl": "dan.jpg",
+            "project": "uf"
+        }
+],
+"cade": [
+        {
+            "title": "CadeProject",
+            "imgurl": "dan.jpg",
+            "project": "cade"
+        },
+        {
+            "title": "CadeProject",
+            "imgurl": "dan.jpg",
+            "project": "cade"
+        },
+        {
+            "title": "CadeProject",
+            "imgurl": "dan.jpg",
+            "project": "cade"
+        },
+        {
+            "title": "CadeProject",
+            "imgurl": "dan.jpg",
+            "project": "cade"
+        },
+        {
+            "title": "CadeProject",
+            "imgurl": "dan.jpg",
+            "project": "cade"
+        }
+]
+
+}

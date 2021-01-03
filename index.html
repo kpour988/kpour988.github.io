@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Kane Pour - Graphic Designer - Gainesville, FL"
+---
+<div class="flex pa4">
+    <div class="w-40">
+        <div class="f3 ttu tracked flex w-100 justify-between pb3 bb border--black bw1 mb2">
+        <a class="link black" id="posters" href="/">Posters</a>
+        <span>/</span>
+        <a class="link black" id="uf" href="/uf">UF</a>
+        <span>/</span>
+        <a class="link black" id="cade" href="/cade">Cade Museum</a>
+      </div>
+      <div id="left" class="transition-fade-left" aria-label="Content">
+        {% for work in site.data.portfolio.posters %}
+            <a class="portfolio-list-item link black ttc tracked lh-copy w-100 f3 db hover-img hover-leave bb border--black bw1" href="#" data-img="{{work.imgurl}}"><span class="f3 work-number"></span> <span class="portfolio-title">{{work.title}}</span></a>
+        {% endfor %}
+        </div>
+    </div>
+    <div id="right" class="flex transition-fade-right center pl3">
+        <img class="frame-img vh-75 mw-100 br3 shadow" src="assets/img/po.png" alt="">
+    </div>
+</div>
+<div id="full" class="transition-fade-left"></div>
+
+
+

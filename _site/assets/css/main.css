@@ -1,0 +1,66 @@
+body {
+  background: #eee;
+  color: #333;
+  font-family: "Fira Mono", monospace; }
+
+.title-font {
+  font-family: Helvetica; }
+
+.fira {
+  font-family: "Fira Mono", monospace; }
+
+.kblue {
+  color: #447288; }
+
+.portfolio-list-item {
+  transition: all 1000ms cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.portfolio-list-item:hover {
+  transform: translateX(15px); }
+
+.shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.transition-fade-left {
+  transition: 0.4s;
+  opacity: 1;
+  transform: translateY(0); }
+
+html.is-animating .transition-fade-left {
+  opacity: 0;
+  transform: translateX(-100%); }
+
+.transition-fade-right {
+  transition: 0.4s;
+  opacity: 1;
+  transform: translateY(0); }
+
+html.is-animating .transition-fade-right {
+  opacity: 0;
+  transform: translateX(100%); }
+
+.quad-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em; }
+
+.quad-grid img {
+  height: 75vh;
+  width: auto; }
+
+.cade-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em; }
+
+.cade-grid img {
+  width: 100%; }
+
+.cade-right img {
+  width: 375px; }
+
+.inactive {
+  color: #555; }

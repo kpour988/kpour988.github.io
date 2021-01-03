@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/css/tachyons.css">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body class="">
+    <header class="ph4 flex items-center justify-between">
+      <a href="/" class="link black">
+        <div class="tracked ttu pt3">
+          <h1 class="f1 normal title-font ma0">Kane Pour</h1>
+          <p class="f3 ttc fira ma0">Graphic Designer</p>
+        </div>
+      </a>
+      <div class="f3">
+        <a href="/contact" class="link black underline ttu tracked">Contact</a>
+      </div>
+    
+    </header>
+    {{ content}}
+    {% include scripts.html %}
+  </body>
+</html>
