@@ -5,16 +5,36 @@ const swup = new Swup(options);
 
 function imgHover() {
     var img = document.querySelector("img.frame-img");
+    var imgMobileContainer = document.querySelector("div.frame-img-mobile-container");
+    var imgMobile = document.querySelector("img.frame-img-mobile");
+    var posterContainer = document.querySelector("div.poster-container");
     var hover = document.querySelectorAll("a.hover-img");
     var workNumber = document.querySelectorAll("span.work-number");
 
     for (let i = 0; i < hover.length; i++) {
         hover[i].addEventListener("mouseover", function () {
             img.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
+            imgMobile.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
+            imgMobileContainer.classList.toggle('closed');
         });
-
+        
         hover[i].addEventListener("mouseleave", function () {
             img.src = `/assets/img/po.png`;
+            imgMobile.src = `/`;
+            imgMobile.classList.toggle('closed');
+        });
+
+
+        hover[i].addEventListener("touchstart", function () {
+            imgMobile.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
+            imgMobileContainer.classList.toggle('closed');
+            posterContainer.classList.toggle('pointer-none');
+        });
+        
+        imgMobile.addEventListener("mouseleave", function () {
+            posterContainer.classList.remove('pointer-none');
+            imgMobileContainer.classList.toggle('closed');
+            imgMobile.src = ``;
         });
     }
     for (let j = 0; j < workNumber.length; j++) {
