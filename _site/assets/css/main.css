@@ -101,3 +101,16 @@ html.is-animating .transition-fade-right {
 
 .frame-img-mobile-container {
   transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+@media all and (max-width: 700px) {
+  .quad-grid img {
+    height: 30vh;
+    width: auto; }
+
+  .cade-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em; }
+
+  div.grid-title {
+    grid-column: span 3; } }
