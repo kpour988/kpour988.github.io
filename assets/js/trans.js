@@ -13,8 +13,8 @@ function imgHover() {
 
     for (let i = 0; i < hover.length; i++) {
         hover[i].addEventListener("mouseover", function () {
-            img.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
-            imgMobile.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
+            img.src = `/assets/img/portfolio/posters/${hover[i].dataset.img}`;
+            imgMobile.src = `/assets/img/portfolio/posters/${hover[i].dataset.img}`;
             imgMobileContainer.classList.toggle('closed');
         });
         
@@ -25,7 +25,8 @@ function imgHover() {
         });
 
 
-        hover[i].addEventListener("touchstart", function () {
+        hover[i].addEventListener("touch", function () {
+            imgMobile.src = ``;
             imgMobile.src = `/assets/img/portfolio/${hover[i].dataset.img}`;
             imgMobileContainer.classList.toggle('closed');
             posterContainer.classList.toggle('pointer-none');
@@ -34,8 +35,8 @@ function imgHover() {
         imgMobile.addEventListener("mouseleave", function () {
             posterContainer.classList.remove('pointer-none');
             imgMobileContainer.classList.toggle('closed');
-            imgMobile.src = ``;
         });
+
     }
     for (let j = 0; j < workNumber.length; j++) {
         workNumber[j].innerHTML = j;
