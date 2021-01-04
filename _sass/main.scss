@@ -10,6 +10,10 @@ body {
   font-family: $bodyFont;
 }
 
+.bg-main {
+  background: $backgroundColor;
+}
+
 .title-font {
   font-family: Helvetica;
 }
@@ -105,7 +109,7 @@ html.is-animating .transition-fade-right {
   position: absolute;
   left: 0;
   transform: translateY(.65em);
-
+  z-index: -1;
 }
 
 .closed {

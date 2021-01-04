@@ -3,6 +3,9 @@ body {
   color: #333;
   font-family: acumin-pro-wide, sans-serif; }
 
+.bg-main {
+  background: #eee; }
+
 .title-font {
   font-family: Helvetica; }
 
@@ -82,7 +85,8 @@ html.is-animating .transition-fade-right {
   border-top: solid 2px black;
   position: absolute;
   left: 0;
-  transform: translateY(0.65em); }
+  transform: translateY(0.65em);
+  z-index: -1; }
 
 .closed {
   opacity: 0;
