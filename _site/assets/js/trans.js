@@ -4,6 +4,7 @@ const options = {
 const swup = new Swup(options);
 
 function imgHover() {
+    if (window.location.pathname == '/') {
     var img = document.querySelector("img.frame-img");
     var imgMobileContainer = document.querySelector("div.frame-img-mobile-container");
     var imgMobile = document.querySelector("img.frame-img-mobile");
@@ -41,6 +42,7 @@ function imgHover() {
     for (let j = 0; j < workNumber.length; j++) {
         workNumber[j].innerHTML = j;
     }
+}
 };
 
 function navHighlight() {
@@ -64,10 +66,11 @@ function navHighlight() {
             cade.classList.toggle('active');
             break;
         default:
-            console.log('we on default');
             break;
     }
 };
+
+
 
 imgHover();
 navHighlight();
