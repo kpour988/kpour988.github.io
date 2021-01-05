@@ -41,12 +41,10 @@ html.is-animating .transition-fade-left {
 
 .transition-fade-right {
   transition: 0.4s;
-  opacity: 1;
-  transform: translateY(0); }
+  opacity: 1; }
 
 html.is-animating .transition-fade-right {
-  opacity: 0;
-  transform: translateX(100%); }
+  opacity: 0; }
 
 .quad-grid {
   display: grid;
