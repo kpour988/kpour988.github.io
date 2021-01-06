@@ -57,6 +57,7 @@ function imgHover() {
         touchNavigation: true,
         loop: true,
         closeOnOutsideClick: true,
+        dragToleranceY: 10,
       });
     }
   }
