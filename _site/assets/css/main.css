@@ -112,3 +112,17 @@ html.is-animating .transition-fade-right {
 
   div.grid-title {
     grid-column: span 3; } }
+body:before {
+  content: "small";
+  display: none;
+  visibility: hidden; }
+
+@media (min-width: 30em) {
+  body:before {
+    content: "medium"; } }
+@media (min-width: 60em) {
+  body:before {
+    content: "large"; }
+
+  .poster-container a:active {
+    pointer-events: none; } }

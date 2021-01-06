@@ -2,29 +2,39 @@
 layout: default
 title: "Kane Pour - Graphic Designer - Gainesville, FL"
 ---
-<div class="dn-ns">
-    <div class="frame-img-mobile-container absolute w-100 vh-90 on-top flex visible closed">
-        <img class="frame-img-mobile center w-80 br3 shadow" src="" alt="">
-    </div>
-</div>
 
 <div class="flex-ns pa4 pt0 pt4-ns relative">
-    <div id="left" class="w-40-ns">
-        <div class="f5 f3-ns ttu tracked flex w-100 justify-between pb3 bb border--black bw1 mb2">
-        <a class="link black fw6 underline" id="posters" href="/">Posters</a>
-        <span>/</span>
-        <a class="link black fw6 underline" id="uf" href="/uf">UF</a>
-        <span>/</span>
-        <a class="link black fw6 underline" id="cade" href="/cade">Cade Museum</a>
-        </div>
-      <div class="transition-fade-left poster-container" aria-label="Content">
-        {% for work in site.data.portfolio.posters %}
-            <a class="portfolio-list-item link black ttc tracked lh-copy w-100 f3 db hover-img hover-leave bb border--black bw1" href="#" data-img="{{work.imgurl}}"><span class="f3 work-number"></span> <span class="portfolio-title">{{work.title}}</span></a>
-        {% endfor %}
-        </div>
+  <div id="left" class="w-40-ns">
+    <div
+      class="f5 f3-ns ttu tracked flex w-100 justify-between pb3 bb border--black bw1 mb2"
+    >
+      <a class="link black fw6 underline" id="posters" href="/">Posters</a>
+      <span>/</span>
+      <a class="link black fw6 underline" id="uf" href="/uf">UF</a>
+      <span>/</span>
+      <a class="link black fw6 underline" id="cade" href="/cade">Cade Museum</a>
     </div>
-    <div id="right" class="flex transition-fade-right center pl3 fixed right-0 w-60-ns">
-        <img class="dn db-ns pa0 ma0 frame-img vh-75-ns mw-100 br3 shadow center" src="assets/img/po.png" alt="">
+    <div class="transition-fade-left poster-container">
+      {% for work in site.data.portfolio.posters %}
+      <a
+        class="glightbox portfolio-list-item link black ttc tracked lh-copy w-100 f3 db hover-img hover-leave bb border--black bw1"
+        href="assets/img/portfolio/posters/{{work.imgurl}}"
+        data-img="{{work.imgurl}}"
+        ><span class="f3 work-number"></span>
+        <span class="portfolio-title">{{work.title}}</span></a
+      >
+      {% endfor %}
     </div>
+  </div>
+  <div
+    id="right"
+    class="flex transition-fade-right center pl3 fixed right-0 w-60-ns"
+  >
+    <img
+      class="dn db-ns pa0 ma0 frame-img vh-75-ns mw-100 br3 shadow center"
+      src="assets/img/po.png"
+      alt=""
+    />
+  </div>
 </div>
 <div id="full" class="transition-fade-left"></div>
