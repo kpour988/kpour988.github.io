@@ -1,204 +1,203 @@
 {
-"posters": [
-        {
-            "title": "Science on Screen",
-            "imgurl": "science.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Carl Stone",
-            "imgurl": "carlstone.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Dan Deacon",
-            "imgurl": "dandeacon.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Helado Negro",
-            "imgurl": "heladonegro.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Human Host",
-            "imgurl": "humanhost.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Midnight Hour",
-            "imgurl": "midnighthour.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Negativland",
-            "imgurl": "negativland.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "The Nels Cline Trio",
-            "imgurl": "nelsclinetrio.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Pearl & the Oysters",
-            "imgurl": "pearlandtheoysters.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Quintron",
-            "imgurl": "quintron.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Reels",
-            "imgurl": "reels.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Sun June",
-            "imgurl": "sunjune.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Toned",
-            "imgurl": "toned.jpg",
-            "project": "flyer"
-        },
-        {
-            "title": "Curt Castle",
-            "imgurl": "curtcastle.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Dirt Bike",
-            "imgurl": "dirtbike.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Edmondson",
-            "imgurl": "edmondson.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Emily Reo",
-            "imgurl": "emilyreo.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Euglossine",
-            "imgurl": "euglossine.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Eve Maret",
-            "imgurl": "evemaret.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Guerilla Toss",
-            "imgurl": "guerilla.png",
-            "project": "flyer"
-        },
-        {
-            "title": "GUTS",
-            "imgurl": "guts.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Kane Pour",
-            "imgurl": "kanepour.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Kids Movie Night",
-            "imgurl": "kids.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Kids Halloween",
-            "imgurl": "kidshalloween.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Mutual Benefit",
-            "imgurl": "mutualbenefit.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Computing Club",
-            "imgurl": "processing.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Proteens",
-            "imgurl": "proteens.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Reaches",
-            "imgurl": "reaches.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Ryley Walker",
-            "imgurl": "ryleywalker.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Suno Deko",
-            "imgurl": "sunodeko.png",
-            "project": "flyer"
-        },
-        {
-            "title": "Transcendental Telecom",
-            "imgurl": "transcendental.png",
-            "project": "flyer"
-        }
-],
-"uf": [
-        {
-            "title": "UFGraphicDesign",
-            "imgurl": "dan.jpg",
-            "project": "uf"
-        },
-        {
-            "title": "UFGraphicDesign",
-            "imgurl": "dan.jpg",
-            "project": "uf"
-        },
-        {
-            "title": "UFGraphicDesign",
-            "imgurl": "dan.jpg",
-            "project": "uf"
-        }
-],
-"cade": [
-        {
-            "title": "CadeProject",
-            "imgurl": "dan.jpg",
-            "project": "cade"
-        },
-        {
-            "title": "CadeProject",
-            "imgurl": "dan.jpg",
-            "project": "cade"
-        },
-        {
-            "title": "CadeProject",
-            "imgurl": "dan.jpg",
-            "project": "cade"
-        },
-        {
-            "title": "CadeProject",
-            "imgurl": "dan.jpg",
-            "project": "cade"
-        },
-        {
-            "title": "CadeProject",
-            "imgurl": "dan.jpg",
-            "project": "cade"
-        }
-]
-
+  "posters": [
+    {
+      "title": "Science on Screen",
+      "imgurl": "science.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Carl Stone",
+      "imgurl": "carlstone.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Dan Deacon",
+      "imgurl": "dandeacon.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Helado Negro",
+      "imgurl": "heladonegro.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Human Host",
+      "imgurl": "humanhost.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Midnight Hour",
+      "imgurl": "midnighthour.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Negativland",
+      "imgurl": "negativland.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "The Nels Cline Trio",
+      "imgurl": "nelsclinetrio.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Pearl & the Oysters",
+      "imgurl": "pearlandtheoysters.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Quintron",
+      "imgurl": "quintron.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Reels",
+      "imgurl": "reels.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Sun June",
+      "imgurl": "sunjune.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Toned",
+      "imgurl": "toned.jpg",
+      "project": "flyer"
+    },
+    {
+      "title": "Curt Castle",
+      "imgurl": "curtcastle.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Dirt Bike",
+      "imgurl": "dirtbike.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Edmondson",
+      "imgurl": "edmondson.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Emily Reo",
+      "imgurl": "emilyreo.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Euglossine",
+      "imgurl": "euglossine.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Eve Maret",
+      "imgurl": "evemaret.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Guerilla Toss",
+      "imgurl": "guerilla.png",
+      "project": "flyer"
+    },
+    {
+      "title": "GUTS",
+      "imgurl": "guts.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Kane Pour",
+      "imgurl": "kanepour.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Kids Movie Night",
+      "imgurl": "kids.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Kids Halloween",
+      "imgurl": "kidshalloween.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Mutual Benefit",
+      "imgurl": "mutualbenefit.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Computing Club",
+      "imgurl": "processing.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Proteens",
+      "imgurl": "proteens.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Reaches",
+      "imgurl": "reaches.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Ryley Walker",
+      "imgurl": "ryleywalker.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Suno Deko",
+      "imgurl": "sunodeko.png",
+      "project": "flyer"
+    },
+    {
+      "title": "Transcendental Telecom",
+      "imgurl": "transcendental.png",
+      "project": "flyer"
+    }
+  ],
+  "uf": [
+    {
+      "title": "UFGraphicDesign",
+      "imgurl": "dan.jpg",
+      "project": "uf"
+    },
+    {
+      "title": "UFGraphicDesign",
+      "imgurl": "dan.jpg",
+      "project": "uf"
+    },
+    {
+      "title": "UFGraphicDesign",
+      "imgurl": "dan.jpg",
+      "project": "uf"
+    }
+  ],
+  "cade": [
+    {
+      "title": "CadeProject",
+      "imgurl": "dan.jpg",
+      "project": "cade"
+    },
+    {
+      "title": "CadeProject",
+      "imgurl": "dan.jpg",
+      "project": "cade"
+    },
+    {
+      "title": "CadeProject",
+      "imgurl": "dan.jpg",
+      "project": "cade"
+    },
+    {
+      "title": "CadeProject",
+      "imgurl": "dan.jpg",
+      "project": "cade"
+    },
+    {
+      "title": "CadeProject",
+      "imgurl": "dan.jpg",
+      "project": "cade"
+    }
+  ]
 }
